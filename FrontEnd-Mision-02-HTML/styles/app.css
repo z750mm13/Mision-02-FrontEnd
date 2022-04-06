@@ -1,0 +1,135 @@
+body {
+    font-family: "Sofia",sans-serif;
+    margin: 0;
+}
+
+/* Text colors */
+.primary-text {
+  color: #ff9900;
+}
+.secondary-text {
+  color: #fff !important;
+}
+.default-text {
+  color: #495057 !important;
+}
+
+/* Layout */
+article {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+.
+/* Text */
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size:2rem;
+  margin-bottom:.5rem;
+}
+
+/* Header css */
+header {
+  overflow: hidden;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+  padding: 10px 16px;
+}
+
+header p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav css */
+nav {
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover:not(.active) {
+    background-color: #ffb84d;
+    transition-duration: 0.4s;
+  }
+  
+  .active {
+    background-color: #ff9900;
+    color: #fff;
+  }
+
+/*FORMS */
+input,optgroup,select,textarea {
+  margin:0;
+  font-family:inherit;
+  font-size:inherit;
+  line-height:inherit;
+  display:block;width:100%;
+  height:calc(1.5em + .75rem + 2px);
+  padding:.375rem .75rem;
+  font-size:1rem;
+  font-weight:400;
+  line-height:1.5;color:#495057;
+  background-color:#fff;
+  background-clip:padding-box;
+  border:1px solid #ced4da;
+  border-radius:.25rem;
+  transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input:focus,optgroup:focus,select:focus,textarea:focus{
+  color:#495057;
+  background-color:#fff;
+  border-color:#80bdff;
+  outline:0;
+  box-shadow:0 0 0 .2rem #ff9900;
+}
+input {
+  overflow:visible;
+}
+/* Buttons */
+button {
+  background-color: #ff9900;
+  color: white;
+  border: 2px solid #ff9900;
+  padding: 12px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: #fff;
+  color: #ff9900;
+  transition-duration: 0.4s;
+}
